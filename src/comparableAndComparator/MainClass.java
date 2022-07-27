@@ -34,7 +34,7 @@ public class MainClass {
 /////////////////////4th time
             Collections.sort(students, Comparator.comparing(Student::getName).thenComparing(Student::getMarks).reversed());//by reversed
 
-            students.forEach(System.out::println);
+            students.forEach(System.out::println);//for(Student s: loops){system.out.println(s);}
     }
        /*public  Class SortByNameThenMarks implements Comparator<Student>{
 
