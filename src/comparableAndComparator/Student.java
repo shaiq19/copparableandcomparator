@@ -36,4 +36,11 @@ public class Student {//public class Student implements Comparable<Student>
         else if (this.marks< that.marks) return -1;
         return this.name.compareTo(that.name);//when both no aresame
     }*/
+    //alternative way
+     /*@Override
+    public int compareTo(Student that) {
+        if(this.marks> that.marks) {
+       return  this.marks-that.marks;
+        }
+    }*/
 }
